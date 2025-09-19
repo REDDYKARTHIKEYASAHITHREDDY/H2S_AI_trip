@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: ai-trip-planner
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 2 -k gthread -b 0.0.0.0:$PORT app:app
+    autoDeploy: true
+    envVars:
+      - key: AMADEUS_API_KEY
+        sync: false
+      - key: AMADEUS_API_SECRET
+        sync: false
+      - key: GETYOURGUIDE_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
