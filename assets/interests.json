@@ -1,0 +1,42 @@
+{
+  "presets": [
+    {
+      "label": "Classic City Mix",
+      "interests": [
+        "culture",
+        "food",
+        "photography"
+      ]
+    },
+    {
+      "label": "Nature & Chill",
+      "interests": [
+        "nature",
+        "food"
+      ]
+    },
+    {
+      "label": "Family Fun",
+      "interests": [
+        "family",
+        "culture",
+        "food"
+      ]
+    },
+    {
+      "label": "Adventure Weekend",
+      "interests": [
+        "adventure",
+        "nature",
+        "food"
+      ]
+    },
+    {
+      "label": "Nightlife Sprint",
+      "interests": [
+        "nightlife",
+        "food"
+      ]
+    }
+  ]
+}
